@@ -1,0 +1,32 @@
+html{
+    background-color: #3E60C3;
+}
+
+body{
+    margin: 20mm 14% 20mm 14%;
+    background-color: white;
+}
+
+#statistiche {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#statistiche td, #statistiche th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#statistiche tr:nth-child(even){background-color: #f2f2f2;}
+
+#statistiche tr:hover {background-color: #ddd;}
+
+#statistiche th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
